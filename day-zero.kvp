@@ -21,7 +21,7 @@ App.HasWriteableConsole=True
 App.HasReadableConsole=True
 App.DisplayName=Day Zero
 App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
-App.WindowsCommandLineArgs=Lostholm?listen?ServerName="[Official] Day Zero - Development - US" -Port=7777 -QueryPort=27015 -log
+App.WindowsCommandLineArgs=Lostholm?listen?ServerName="[Official] Day Zero - Development - US" -Port=7777 -QueryPort=27015 -log -stdout -FullStdOutLogOutput
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
 App.RapidStartup=false
