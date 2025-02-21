@@ -15,7 +15,7 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2395170",
         "UpdateSourceArgs": "2395170",
-        "UpdateSourceVersion": "{{BetaBranch}}",
+        "UpdateSourceVersion": "{{development}}",
         "UpdateSourceConditionSetting": "EnableBeta",
         "UpdateSourceConditionValue": "true"
     },
