@@ -1,1 +1,19 @@
-[]
+[
+	{
+        "DisplayName": "Enable Beta Branch",
+        "Category": "Updates",
+        "Subcategory": "Steam Downloads:download",
+        "Description": "If enabled, allows beta branches (branches other than \"public\") to be installed. Specify the branch under \"Selected Beta Branch\". NOTE: Update the server after switching branches!",
+        "Keywords": "enable,beta",
+        "FieldName": "EnableBeta",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    }
+]
