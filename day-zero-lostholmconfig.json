@@ -1,19 +1,17 @@
 [
 	{
-        "DisplayName": "Enable Beta Branch",
+        "DisplayName": "Server Branch",
         "Category": "Updates",
         "Subcategory": "Steam Downloads:download",
-        "Description": "If enabled, allows beta branches (branches other than \"public\") to be installed. Specify the branch under \"Selected Beta Branch\". NOTE: Update the server after switching branches!",
-        "Keywords": "enable,beta",
-        "FieldName": "EnableBeta",
-        "InputType": "checkbox",
-        "IsFlagArgument": false,
-        "ParamFieldName": "",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "true",
+        "Description": "Sets the server branch to install. Update the server after changing this setting",
+        "Keywords": "branch,beta,public",
+        "FieldName": "ServerBranch",
+        "InputType": "enum",
+        "ParamFieldName": "ServerBranch",
+        "DefaultValue": "public",
         "EnumValues": {
-            "False": "false",
-            "True": "true"
+            "public": "Public (default)",
+            "experimental": "Experimental"
         }
     }
 ]
