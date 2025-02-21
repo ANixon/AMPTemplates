@@ -11,7 +11,7 @@
         "DefaultValue": "public",
         "EnumValues": {
             "public": "Public (default)",
-            "experimental": "Experimental"
+            "experimental": "development"
         }
     }
 ]
