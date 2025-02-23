@@ -4,7 +4,7 @@
         "UpdateSourcePlatform": "All",
 		"ForceDownloadPlatform": "Windows",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "2395110",
+        "UpdateSourceData": "2395170",
         "UpdateSourceArgs": "2395170",
         "UpdateSourceVersion": "{{BetaBranch}}",
 		"UpdateSourceConditionSetting": "EnableBeta",
