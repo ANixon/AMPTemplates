@@ -1,17 +1,34 @@
 [
-	{
-        "DisplayName": "Server Branch",
+{
+        "DisplayName": "Enable Beta Branch",
         "Category": "Updates",
         "Subcategory": "Steam Downloads:download",
-        "Description": "Sets the server branch to install. Update the server after changing this setting",
-        "Keywords": "branch,beta,public",
-        "FieldName": "ServerBranch",
-        "InputType": "enum",
-        "ParamFieldName": "ServerBranch",
-        "DefaultValue": "public",
+        "Description": "If enabled, allows beta branches (branches other than \"public\") to be installed. Specify the branch under \"Selected Beta Branch\". NOTE: Update the server after switching branches!",
+        "Keywords": "enable,beta",
+        "FieldName": "EnableBeta",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
         "EnumValues": {
-            "public": "Public (default)",
-            "development": "development"
+            "False": "false",
+            "True": "true"
         }
+    },
+	{
+        "DisplayName": "Selected Beta Branch",
+        "Category": "Updates",
+        "Subcategory": "Steam Downloads:download",
+        "Description": "[Beta branch](https://steamdb.info/app/2395110/depots/) to install. Requires \"Enable Beta Branch\" to be enabled. Set any required password under \"Beta Password\". NOTE: Update the server after switching branches!",
+        "Keywords": "beta,branch",
+        "FieldName": "BetaBranch",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "EnumValues": {}
     }
 ]

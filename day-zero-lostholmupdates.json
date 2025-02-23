@@ -2,9 +2,12 @@
     {
         "UpdateStageName": "SteamCMD Download",
         "UpdateSourcePlatform": "All",
+		"ForceDownloadPlatform": "Windows",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2395110",
         "UpdateSourceArgs": "2395170",
-        "UpdateSourceVersion": "{{ServerBranch}}"
+        "UpdateSourceVersion": "{{BetaBranch}}",
+		"UpdateSourceConditionSetting": "EnableBeta",
+        "UpdateSourceConditionValue": "true"
     }
 ]
